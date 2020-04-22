@@ -1,0 +1,44 @@
+.background_color {
+  background-color: gray;   
+}
+
+.center {
+  text-align: center;
+  font-family: arial;
+}
+
+.left {
+  text-align: left;
+  font-family: arial;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-family: arial;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.equation span {
+  font-size: 20px;
+  font-family: Arial;
+  display: inline-block;
+  min-width: 12ch;
+  min-height: 20px;
+  background-color: #a6a6a6;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}

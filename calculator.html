@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <div id="css">
+        <link href="./style.css" type="text/css" rel="stylesheet">
+    </div>
+    
+    <head>
+        <title>Simple Calculator Page</title>
+    </head>
+    
+    <body class="background_color">
+      
+        <div id="intro" class="center">
+            <div id="links">
+                <a href="./index.html">Move to Home</a>
+                <a href="./calculator.html">Move to Calculator</a>
+            </div>
+            <h1>Simple Calculator</h1>
+        </div>
+        
+        <div id="calculator_script" class="center">
+            <script src="./calculate.js" language="JavaScript" type="text/javascript"></script>
+            <script src="./main.js" language="JavaScript" type="text/javascript"></script>
+        </div>
+
+        <div id="calculate_button" class="center">
+            <button onclick="calculate()" class="button">Use Calculator</button>
+        </div>
+
+        <div id="numbers">
+          <p class="equation" align="center"><span id="equation"></span></p>
+        </div>
+
+        <div id="images" class="center">
+          <p><strong>Hover</strong> over the image of the calculator to reveal some interesting calculator facts!</p>
+          <a href="https://en.wikipedia.org/wiki/Calculator" target="_blank"><img src="./content/calculatorIMG.png" onmouseover="hoverOnImg()" onmouseout="hoverOffImg()" height="300" width="250" alt="An image of a calculator displaying '403'"></img></a>
+          <p id="facts" class="left"></p>
+        </div>
+
+    </body>
+
+</html>
