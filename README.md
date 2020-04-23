@@ -1,6 +1,6 @@
 # Assignment #7ab: Age Regulator/Calculator
 
-**This assignment is a webpage that tests and processes the age of its users, and allows them access to a calculator after they meet a certain criteria. View this project at: ```walker.rout.ca**```
+**This assignment is a webpage that tests and processes the age of its users, and allows them access to a calculator after they meet a certain criteria. View this project at: ```walker.rout.ca```**
 
 ## Getting Started With the Project
 
